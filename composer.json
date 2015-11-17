@@ -15,17 +15,5 @@
     "require": {
         "php": ">=4"   
     },
-    "autoload": {    
-        "classmap": [
-            "Archive_Tar/",
-            "Config/",
-            "Console_Getopt/",
-            "DB",
-            "DB_Pager",
-            "PEAR",
-            "Structures_Graph",
-            "XML_Parser",
-            "XML_Util"
-        ]
-    }  
+    "include-path": ["src/"]
 }
