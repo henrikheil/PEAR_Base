@@ -15,5 +15,5 @@
     "require": {
         "php": ">=4"   
     },
-    "include-path": ["src/"]
+    "include-path": ["src/Config/", "src/DB/", "src/DB_Pager/DB/"]
 }
