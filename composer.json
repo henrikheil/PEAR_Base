@@ -21,7 +21,6 @@
             "Config/",
             "Console_Getopt/",
             "DB",
-            "DB_NestedSet",
             "DB_Pager",
             "PEAR",
             "Structures_Graph",
