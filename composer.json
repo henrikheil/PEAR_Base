@@ -15,5 +15,8 @@
     "require": {
         "php": ">=4"   
     },
-    "include-path": ["src/Config/", "src/DB/", "src/DB_Pager/DB/"]
+    "autoload": {
+        "files": ["src/Config/Config.php", "src/DB/DB.php", "src/DB/Pager.php"]
+    },    
+    "include-path": ["src/"]
 }
