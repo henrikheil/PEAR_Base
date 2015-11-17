@@ -1,0 +1,32 @@
+{
+    "name": "henrikheil/PEAR_Base",
+    "type": "library",
+    "description": "Fork of basic PEAR packages including DB, DB_pager and Config",
+    "keywords": ["php", "pear"],
+    "homepage": "https://github.com/henrikheil/PEAR_Base",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrik Heil",
+            "email": "henrik.heil@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=4"   
+    },
+    "autoload": {    
+        "classmap": [
+            "Archive_Tar/",
+            "Config/",
+            "Console_Getopt/",
+            "DB",
+            "DB_NestedSet",
+            "DB_Pager",
+            "PEAR",
+            "Structures_Graph",
+            "XML_Parser",
+            "XML_Util"
+        ]
+    }  
+}
