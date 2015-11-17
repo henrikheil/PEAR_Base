@@ -16,7 +16,7 @@
         "php": ">=4"   
     },
     "autoload": {
-        "files": ["src/Config/Config.php", "src/DB/DB.php", "src/DB/Pager.php"]
+        "files": ["src/Config.php", "src/DB.php", "src/DB/Pager.php"]
     },    
     "include-path": ["src/"]
 }
